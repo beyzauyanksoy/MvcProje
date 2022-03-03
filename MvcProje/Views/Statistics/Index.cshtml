@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h3>İstatistik Sayfası</h3>
+
+<br />
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card text-dark  mb-3" style="max-width: 18rem; background-color: #ffce7b">
+                <img src="~/Images/istatistik1.jpg" class="card-img-top">
+                <div class="card-header"> Toplam Kategori Sayısı </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b> @ViewBag.result1 </b></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-dark mb-3" style="max-width: 18rem; background-color: #c8a8bf">
+                <img src="~/Images/oyun.png" class="card-img-top">
+                <div class="card-header"> Oyun Kategorisine Ait Başlık Sayısı </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b> @ViewBag.result2 </b></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-dark mb-3" style="max-width: 18rem; background-color: #c5d7f7">
+                <img src="~/Images/letter.png" class="card-img-top">
+                <div class="card-header"> İsminde "a" Harfi Olan Yazar Sayısı </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b> @ViewBag.result3 </b></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-dark  mb-3" style="max-width: 18rem; background-color: #b5bd0d">
+                <img src="~/Images/chart.jpg" class="card-img-top">
+                <div class="card-header"> En Fazla Başlığa Sahip Kategori </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b> @ViewBag.result4 </b></h5>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4">
+            <div class="card text-dark " style="max-width: 18rem; background-color: #79BD8F ">
+                <img src="~/Images/toplamYazar.jpg" class="card-img-top">
+                <div class="card-header"> Toplam Yazar Sayısı </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b> @ViewBag.result5 </b></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card text-dark " style="max-width: 18rem; background-color: #FCB5BB ">
+                <img src="~/Images/yazar1.jpg" class="card-img-top">
+                <div class="card-header"> En fazla yazı yazan yazar </div>
+                <div class="card-body">
+                    <h5 class="card-title"><b> @ViewBag.result6 </b></h5>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
