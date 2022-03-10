@@ -18,7 +18,7 @@ namespace EntityLayer.Concrete
 
         //Content yazar
         //Content başlık
-
+        public bool ContentStatus { get; set; }
 
         //heading ilişkisi
         public int HeadingID { get; set; }
