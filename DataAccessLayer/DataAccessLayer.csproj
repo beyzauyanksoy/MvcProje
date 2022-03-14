@@ -56,6 +56,7 @@
     <Compile Include="Abstract\IContactDal.cs" />
     <Compile Include="Abstract\IContentDal.cs" />
     <Compile Include="Abstract\IHeadingDal.cs" />
+    <Compile Include="Abstract\IMessageDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\IWriterDal.cs" />
     <Compile Include="Concrete\Context.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="EntityFramework\EfContactDal.cs" />
     <Compile Include="EntityFramework\EfContentDal.cs" />
     <Compile Include="EntityFramework\EfHeadingDal.cs" />
+    <Compile Include="EntityFramework\EfMessageDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
     <Compile Include="Migrations\202201291657404_mig2.cs" />
     <Compile Include="Migrations\202201291657404_mig2.designer.cs">
@@ -95,6 +97,14 @@
     <Compile Include="Migrations\202203101635229_mig_headingstatusAdd.cs" />
     <Compile Include="Migrations\202203101635229_mig_headingstatusAdd.designer.cs">
       <DependentUpon>202203101635229_mig_headingstatusAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203131306194_mid_add_messsage.cs" />
+    <Compile Include="Migrations\202203131306194_mid_add_messsage.designer.cs">
+      <DependentUpon>202203131306194_mid_add_messsage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203142042518_m1.cs" />
+    <Compile Include="Migrations\202203142042518_m1.designer.cs">
+      <DependentUpon>202203142042518_m1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -130,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203101635229_mig_headingstatusAdd.resx">
       <DependentUpon>202203101635229_mig_headingstatusAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203131306194_mid_add_messsage.resx">
+      <DependentUpon>202203131306194_mid_add_messsage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203142042518_m1.resx">
+      <DependentUpon>202203142042518_m1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
