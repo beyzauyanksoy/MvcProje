@@ -56,6 +56,7 @@
     <Compile Include="Abstract\IContactDal.cs" />
     <Compile Include="Abstract\IContentDal.cs" />
     <Compile Include="Abstract\IHeadingDal.cs" />
+    <Compile Include="Abstract\IImageFileDal.cs" />
     <Compile Include="Abstract\IMessageDal.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\IWriterDal.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="EntityFramework\EfContactDal.cs" />
     <Compile Include="EntityFramework\EfContentDal.cs" />
     <Compile Include="EntityFramework\EfHeadingDal.cs" />
+    <Compile Include="EntityFramework\EfImageFileDal.cs" />
     <Compile Include="EntityFramework\EfMessageDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
     <Compile Include="Migrations\202201291657404_mig2.cs" />
@@ -105,6 +107,14 @@
     <Compile Include="Migrations\202203142042518_m1.cs" />
     <Compile Include="Migrations\202203142042518_m1.designer.cs">
       <DependentUpon>202203142042518_m1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203311439238_contactAddDate.cs" />
+    <Compile Include="Migrations\202203311439238_contactAddDate.designer.cs">
+      <DependentUpon>202203311439238_contactAddDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202203311908417_mig_addimage_file.cs" />
+    <Compile Include="Migrations\202203311908417_mig_addimage_file.designer.cs">
+      <DependentUpon>202203311908417_mig_addimage_file.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -146,6 +156,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202203142042518_m1.resx">
       <DependentUpon>202203142042518_m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203311439238_contactAddDate.resx">
+      <DependentUpon>202203311439238_contactAddDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202203311908417_mig_addimage_file.resx">
+      <DependentUpon>202203311908417_mig_addimage_file.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

@@ -86,7 +86,7 @@
                                             <b>@item.Subject</b> - @item.Message.Substring(0,30)...
                                         </td>
                                         <td class="mailbox-attachment"></td>
-                                        <td class="mailbox-date">5 mins ago</td>
+                                        <td class="mailbox-date">@(((DateTime)item.ContactDate).ToString("dd-MMM-yyy"))</td>
                                     </tr>
                                     }
                                 </tbody>
@@ -111,6 +111,7 @@
                             <button type="button" class="btn btn-default btn-sm"><i class="fas fa-sync-alt"></i></button>
                             <div class="float-right">
                                 1-50/200
+                                
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-left"></i></button>
                                     <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-right"></i></button>
