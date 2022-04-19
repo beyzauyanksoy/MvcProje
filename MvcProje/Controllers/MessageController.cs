@@ -18,7 +18,7 @@ namespace MvcProje.Controllers
         // GET: Message
 
 
-        
+       
         public ActionResult Inbox()
         {
             var messagelist = cm.GetListInbox();
