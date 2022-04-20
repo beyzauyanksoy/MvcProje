@@ -19,14 +19,14 @@ namespace MvcProje.Controllers
 
 
        
-        public ActionResult Inbox()
+        public ActionResult Inbox(string p)
         {
-            var messagelist = cm.GetListInbox();
+            var messagelist = cm.GetListInbox(p);
             return View(messagelist);
         }
-        public ActionResult Sendbox()
+        public ActionResult Sendbox(string p)
         {
-            var messagelist = cm.GetListSendInbox();
+            var messagelist = cm.GetListSendInbox(p);
             return View(messagelist);
         }
 
