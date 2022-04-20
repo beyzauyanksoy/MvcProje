@@ -2567,6 +2567,7 @@
     <Content Include="Views\WriterPanelMessage\NewMessage.cshtml" />
     <Content Include="Views\WriterPanelContent\MyContent.cshtml" />
     <Content Include="Views\Login\WriterLogin.cshtml" />
+    <Content Include="Views\Content\GetAllContent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
